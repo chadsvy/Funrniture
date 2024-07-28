@@ -1,0 +1,7 @@
+displayName = Random Furniture Mod
+author = Zorro
+version = 0.1
+hideCode = false
+hideResources = false
+includeSource = true
+buildIgnore = Concepts\Unused\*

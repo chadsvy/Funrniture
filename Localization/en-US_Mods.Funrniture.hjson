@@ -1,0 +1,231 @@
+Items: {
+	Pouf: {
+		DisplayName: Pouf
+		Tooltip: ""
+	}
+
+	Stool: {
+		DisplayName: Stool
+		Tooltip: ""
+	}
+
+	EbonwoodPoufItem: {
+		DisplayName: Ebonwood Pouf Item
+		Tooltip: ""
+	}
+
+	PearlwoodPoufItem: {
+		DisplayName: Pearlwood Pouf Item
+		Tooltip: ""
+	}
+
+	PoufItem: {
+		DisplayName: Pouf Item
+		Tooltip: ""
+	}
+
+	RichMahoganyPoufItem: {
+		DisplayName: Rich Mahogany Pouf Item
+		Tooltip: ""
+	}
+
+	StoolItem: {
+		DisplayName: Stool Item
+		Tooltip: ""
+	}
+
+	AshWoodPoufItem: {
+		DisplayName: Ash Wood Pouf Item
+		Tooltip: ""
+	}
+
+	BalloonPoufItem: {
+		DisplayName: Balloon Pouf Item
+		Tooltip: ""
+	}
+
+	BambooPoufItem: {
+		DisplayName: Bamboo Pouf Item
+		Tooltip: ""
+	}
+
+	BlueDungeonPoufItem: {
+		DisplayName: Blue Dungeon Pouf Item
+		Tooltip: ""
+	}
+
+	BonePoufItem: {
+		DisplayName: Bone Pouf Item
+		Tooltip: ""
+	}
+
+	BorealWoodPoufItem: {
+		DisplayName: Boreal Wood Pouf Item
+		Tooltip: ""
+	}
+
+	CactusPoufItem: {
+		DisplayName: Cactus Pouf Item
+		Tooltip: ""
+	}
+
+	CrystalPoufItem: {
+		DisplayName: Crystal Pouf Item
+		Tooltip: ""
+	}
+
+	DynastyPoufItem: {
+		DisplayName: Dynasty Pouf Item
+		Tooltip: ""
+	}
+
+	FleshPoufItem: {
+		DisplayName: Flesh Pouf Item
+		Tooltip: ""
+	}
+
+	FrozenPoufItem: {
+		DisplayName: Frozen Pouf Item
+		Tooltip: ""
+	}
+
+	GlassPoufItem: {
+		DisplayName: Glass Pouf Item
+		Tooltip: ""
+	}
+
+	GoldenPoufItem: {
+		DisplayName: Golden Pouf Item
+		Tooltip: ""
+	}
+
+	GranitePoufItem: {
+		DisplayName: Granite Pouf Item
+		Tooltip: ""
+	}
+
+	GreenDungeonPoufItem: {
+		DisplayName: Green Dungeon Pouf Item
+		Tooltip: ""
+	}
+
+	HoneyPoufItem: {
+		DisplayName: Honey Pouf Item
+		Tooltip: ""
+	}
+
+	LesionPoufItem: {
+		DisplayName: Lesion Pouf Item
+		Tooltip: ""
+	}
+
+	LihzahrdPoufItem: {
+		DisplayName: Lihzahrd Pouf Item
+		Tooltip: ""
+	}
+
+	LivingWoodPoufItem: {
+		DisplayName: Living Wood Pouf Item
+		Tooltip: ""
+	}
+
+	MarblePoufItem: {
+		DisplayName: Marble Pouf Item
+		Tooltip: ""
+	}
+
+	MartianPoufItem: {
+		DisplayName: Martian Pouf Item
+		Tooltip: ""
+	}
+
+	MeteoritePoufItem: {
+		DisplayName: Meteorite Pouf Item
+		Tooltip: ""
+	}
+
+	MushroomPoufItem: {
+		DisplayName: Mushroom Pouf Item
+		Tooltip: ""
+	}
+
+	NebulaPoufItem: {
+		DisplayName: Nebula Pouf Item
+		Tooltip: ""
+	}
+
+	ObsidianPoufItem: {
+		DisplayName: Obsidian Pouf Item
+		Tooltip: ""
+	}
+
+	PalmWoodPoufItem: {
+		DisplayName: Palm Wood Pouf Item
+		Tooltip: ""
+	}
+
+	PinkDungeonPoufItem: {
+		DisplayName: Pink Dungeon Pouf Item
+		Tooltip: ""
+	}
+
+	PumpkinPoufItem: {
+		DisplayName: Pumpkin Pouf Item
+		Tooltip: ""
+	}
+
+	ReefPoufItem: {
+		DisplayName: Reef Pouf Item
+		Tooltip: ""
+	}
+
+	SandstonePoufItem: {
+		DisplayName: Sandstone Pouf Item
+		Tooltip: ""
+	}
+
+	ShadewoodPoufItem: {
+		DisplayName: Shadewood Pouf Item
+		Tooltip: ""
+	}
+
+	SkywarePoufItem: {
+		DisplayName: Skyware Pouf Item
+		Tooltip: ""
+	}
+
+	SlimePoufItem: {
+		DisplayName: Slime Pouf Item
+		Tooltip: ""
+	}
+
+	SolarPoufItem: {
+		DisplayName: Solar Pouf Item
+		Tooltip: ""
+	}
+
+	SpiderPoufItem: {
+		DisplayName: Spider Pouf Item
+		Tooltip: ""
+	}
+
+	SpookyPoufItem: {
+		DisplayName: Spooky Pouf Item
+		Tooltip: ""
+	}
+
+	StardustPoufItem: {
+		DisplayName: Stardust Pouf Item
+		Tooltip: ""
+	}
+
+	SteampunkPoufItem: {
+		DisplayName: Steampunk Pouf Item
+		Tooltip: ""
+	}
+
+	VortexPoufItem: {
+		DisplayName: Vortex Pouf Item
+		Tooltip: ""
+	}
+}
