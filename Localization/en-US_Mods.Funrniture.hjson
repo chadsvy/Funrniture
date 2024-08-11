@@ -1,231 +1,291 @@
 Items: {
-	Pouf: {
-		DisplayName: Pouf
-		Tooltip: ""
-	}
-
-	Stool: {
-		DisplayName: Stool
-		Tooltip: ""
-	}
-
 	EbonwoodPoufItem: {
-		DisplayName: Ebonwood Pouf Item
+		DisplayName: Ebonwood Pouf
 		Tooltip: ""
 	}
 
 	PearlwoodPoufItem: {
-		DisplayName: Pearlwood Pouf Item
+		DisplayName: Pearlwood Pouf
 		Tooltip: ""
 	}
 
 	PoufItem: {
-		DisplayName: Pouf Item
+		DisplayName: Pouf
 		Tooltip: ""
 	}
 
 	RichMahoganyPoufItem: {
-		DisplayName: Rich Mahogany Pouf Item
+		DisplayName: Rich Mahogany Pouf
 		Tooltip: ""
 	}
 
 	StoolItem: {
-		DisplayName: Stool Item
+		DisplayName: Stool
 		Tooltip: ""
 	}
 
 	AshWoodPoufItem: {
-		DisplayName: Ash Wood Pouf Item
+		DisplayName: Ash Wood Pouf
 		Tooltip: ""
 	}
 
 	BalloonPoufItem: {
-		DisplayName: Balloon Pouf Item
+		DisplayName: Balloon Pouf
 		Tooltip: ""
 	}
 
 	BambooPoufItem: {
-		DisplayName: Bamboo Pouf Item
+		DisplayName: Bamboo Pouf
 		Tooltip: ""
 	}
 
 	BlueDungeonPoufItem: {
-		DisplayName: Blue Dungeon Pouf Item
+		DisplayName: Blue Dungeon Pouf
 		Tooltip: ""
 	}
 
 	BonePoufItem: {
-		DisplayName: Bone Pouf Item
+		DisplayName: Bone Pouf
 		Tooltip: ""
 	}
 
 	BorealWoodPoufItem: {
-		DisplayName: Boreal Wood Pouf Item
+		DisplayName: Boreal Wood Pouf
 		Tooltip: ""
 	}
 
 	CactusPoufItem: {
-		DisplayName: Cactus Pouf Item
-		Tooltip: ""
+		DisplayName: Cactus Pouf
+		Tooltip: Whose idea was this?
 	}
 
 	CrystalPoufItem: {
-		DisplayName: Crystal Pouf Item
+		DisplayName: Crystal Pouf
 		Tooltip: ""
 	}
 
 	DynastyPoufItem: {
-		DisplayName: Dynasty Pouf Item
+		DisplayName: Dynasty Pouf
 		Tooltip: ""
 	}
 
 	FleshPoufItem: {
-		DisplayName: Flesh Pouf Item
+		DisplayName: Flesh Pouf
 		Tooltip: ""
 	}
 
 	FrozenPoufItem: {
-		DisplayName: Frozen Pouf Item
+		DisplayName: Frozen Pouf
 		Tooltip: ""
 	}
 
 	GlassPoufItem: {
-		DisplayName: Glass Pouf Item
+		DisplayName: Glass Pouf
 		Tooltip: ""
 	}
 
 	GoldenPoufItem: {
-		DisplayName: Golden Pouf Item
+		DisplayName: Golden Pouf
 		Tooltip: ""
 	}
 
 	GranitePoufItem: {
-		DisplayName: Granite Pouf Item
+		DisplayName: Granite Pouf
 		Tooltip: ""
 	}
 
 	GreenDungeonPoufItem: {
-		DisplayName: Green Dungeon Pouf Item
+		DisplayName: Green Dungeon Pouf
 		Tooltip: ""
 	}
 
 	HoneyPoufItem: {
-		DisplayName: Honey Pouf Item
+		DisplayName: Honey Pouf
 		Tooltip: ""
 	}
 
 	LesionPoufItem: {
-		DisplayName: Lesion Pouf Item
+		DisplayName: Lesion Pouf
 		Tooltip: ""
 	}
 
 	LihzahrdPoufItem: {
-		DisplayName: Lihzahrd Pouf Item
+		DisplayName: Lihzahrd Pouf
 		Tooltip: ""
 	}
 
 	LivingWoodPoufItem: {
-		DisplayName: Living Wood Pouf Item
+		DisplayName: Living Wood Pouf
 		Tooltip: ""
 	}
 
 	MarblePoufItem: {
-		DisplayName: Marble Pouf Item
+		DisplayName: Marble Pouf
 		Tooltip: ""
 	}
 
 	MartianPoufItem: {
-		DisplayName: Martian Pouf Item
+		DisplayName: Martian Pouf
 		Tooltip: ""
 	}
 
 	MeteoritePoufItem: {
-		DisplayName: Meteorite Pouf Item
+		DisplayName: Meteorite Pouf
 		Tooltip: ""
 	}
 
 	MushroomPoufItem: {
-		DisplayName: Mushroom Pouf Item
+		DisplayName: Mushroom Pouf
 		Tooltip: ""
 	}
 
 	NebulaPoufItem: {
-		DisplayName: Nebula Pouf Item
+		DisplayName: Nebula Pouf
 		Tooltip: ""
 	}
 
 	ObsidianPoufItem: {
-		DisplayName: Obsidian Pouf Item
+		DisplayName: Obsidian Pouf
 		Tooltip: ""
 	}
 
 	PalmWoodPoufItem: {
-		DisplayName: Palm Wood Pouf Item
+		DisplayName: Palm Wood Pouf
 		Tooltip: ""
 	}
 
 	PinkDungeonPoufItem: {
-		DisplayName: Pink Dungeon Pouf Item
+		DisplayName: Pink Dungeon Pouf
 		Tooltip: ""
 	}
 
 	PumpkinPoufItem: {
-		DisplayName: Pumpkin Pouf Item
+		DisplayName: Pumpkin Pouf
 		Tooltip: ""
 	}
 
 	ReefPoufItem: {
-		DisplayName: Reef Pouf Item
+		DisplayName: Reef Pouf
 		Tooltip: ""
 	}
 
 	SandstonePoufItem: {
-		DisplayName: Sandstone Pouf Item
+		DisplayName: Sandstone Pouf
 		Tooltip: ""
 	}
 
 	ShadewoodPoufItem: {
-		DisplayName: Shadewood Pouf Item
+		DisplayName: Shadewood Pouf
 		Tooltip: ""
 	}
 
 	SkywarePoufItem: {
-		DisplayName: Skyware Pouf Item
+		DisplayName: Skyware Pouf
 		Tooltip: ""
 	}
 
 	SlimePoufItem: {
-		DisplayName: Slime Pouf Item
+		DisplayName: Slime Pouf
 		Tooltip: ""
 	}
 
 	SolarPoufItem: {
-		DisplayName: Solar Pouf Item
+		DisplayName: Solar Pouf
 		Tooltip: ""
 	}
 
 	SpiderPoufItem: {
-		DisplayName: Spider Pouf Item
+		DisplayName: Spider Pouf
 		Tooltip: ""
 	}
 
 	SpookyPoufItem: {
-		DisplayName: Spooky Pouf Item
+		DisplayName: Spooky Pouf
 		Tooltip: ""
 	}
 
 	StardustPoufItem: {
-		DisplayName: Stardust Pouf Item
+		DisplayName: Stardust Pouf
 		Tooltip: ""
 	}
 
 	SteampunkPoufItem: {
-		DisplayName: Steampunk Pouf Item
+		DisplayName: Steampunk Pouf
 		Tooltip: ""
 	}
 
 	VortexPoufItem: {
-		DisplayName: Vortex Pouf Item
+		DisplayName: Vortex Pouf
+		Tooltip: ""
+	}
+
+	SmallLeopardSkinItem: {
+		DisplayName: Mysterious Animal Skin
+		Tooltip:
+			'''
+			The hide of a dangerous, spotted, man-eating jungle pig
+			Obtained by you at great peril
+			Not just a leopard skin that you cut in half
+			'''
+	}
+
+	BirdPerchItem: {
+		DisplayName: Bird Perch
+		Tooltip: ""
+	}
+
+	BlueJayPerchItem: {
+		DisplayName: Blue Jay Perch
+		Tooltip: ""
+	}
+
+	BlueMacawPerchItem: {
+		DisplayName: Blue Macaw Perch
+		Tooltip: ""
+	}
+
+	CardinalPerchItem: {
+		DisplayName: Cardinal Perch
+		Tooltip: ""
+	}
+
+	FinchPerchItem: {
+		DisplayName: Finch Perch
+		Tooltip: ""
+	}
+
+	GoldBirdPerchItem: {
+		DisplayName: Gold Bird Perch
+		Tooltip: ""
+	}
+
+	GrayCockatielPerchItem: {
+		DisplayName: Gray Cockatiel Perch
+		Tooltip: ""
+	}
+
+	OwlPerchItem: {
+		DisplayName: Owl Perch
+		Tooltip: ""
+	}
+
+	ParrotPerchItem: {
+		DisplayName: Parrot Perch
+		Tooltip: ""
+	}
+
+	ScarletMacawPerchItem: {
+		DisplayName: Scarlet Macaw Perch
+		Tooltip: ""
+	}
+
+	ToucanPerchItem: {
+		DisplayName: Toucan Perch
+		Tooltip: ""
+	}
+
+	YellowCockatielPerchItem: {
+		DisplayName: Yellow Cockatiel Perch
 		Tooltip: ""
 	}
 }

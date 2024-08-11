@@ -10,6 +10,17 @@
 	<ItemGroup>
 	  <None Remove="Content\Items\Placeable\Furniture\SetAdditions\Poufs\PoufItem.png" />
 	  <None Remove="Content\Items\Placeable\Furniture\SetAdditions\Stool.png" />
+	  <None Remove="Content\Tiles\Furniture\AnimalHomes\BlueJayPerch.png" />
+	  <None Remove="Content\Tiles\Furniture\AnimalHomes\BlueMacawPerch.png" />
+	  <None Remove="Content\Tiles\Furniture\AnimalHomes\CardinalPerch.png" />
+	  <None Remove="Content\Tiles\Furniture\AnimalHomes\FinchPerch.png" />
+	  <None Remove="Content\Tiles\Furniture\AnimalHomes\GoldBirdPerch.png" />
+	  <None Remove="Content\Tiles\Furniture\AnimalHomes\GrayCockatielPerch.png" />
+	  <None Remove="Content\Tiles\Furniture\AnimalHomes\OwlPerch.png" />
+	  <None Remove="Content\Tiles\Furniture\AnimalHomes\ParrotPerch.png" />
+	  <None Remove="Content\Tiles\Furniture\AnimalHomes\ScarletMacawPerch.png" />
+	  <None Remove="Content\Tiles\Furniture\AnimalHomes\ToucanPerch.png" />
+	  <None Remove="Content\Tiles\Furniture\AnimalHomes\YellowCockatielPerch.png" />
 	  <None Remove="Content\Tiles\Furniture\Pouf.png" />
 	</ItemGroup>
 
