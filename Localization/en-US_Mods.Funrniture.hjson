@@ -274,6 +274,11 @@ Items: {
 		Tooltip: ""
 	}
 
+	RavenPerchItem: {
+		DisplayName: Raven Perch
+		Tooltip: ""
+	}
+
 	ScarletMacawPerchItem: {
 		DisplayName: Scarlet Macaw Perch
 		Tooltip: ""

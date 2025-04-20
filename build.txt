@@ -1,6 +1,6 @@
 displayName = Random Furniture Mod
 author = Zorro
-version = 0.4
+version = 0.7
 hideCode = false
 hideResources = false
 includeSource = true

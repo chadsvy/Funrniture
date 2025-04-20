@@ -1,1 +1,2 @@
-Modify this file with a description of your poufs.
+Mostly consists of poufs and bird perches.
+Might one day consist of more.

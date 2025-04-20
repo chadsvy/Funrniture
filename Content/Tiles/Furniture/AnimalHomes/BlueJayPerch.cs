@@ -22,10 +22,31 @@ namespace Funrniture.Content.Tiles.Furniture.AnimalHomes
             TileObjectData.newTile.CoordinateHeights = [16, 16, 18];
             TileObjectData.newTile.CoordinateWidth = 16;
             TileObjectData.newTile.CoordinatePadding = 2;
+            TileObjectData.newTile.StyleHorizontal = true;
+            TileObjectData.newTile.StyleMultiplier = 4;
 
             TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
             TileObjectData.newAlternate.Direction = TileObjectDirection.PlaceRight;
             TileObjectData.addAlternate(1);
+
+            TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
+            TileObjectData.newAlternate.Height = 2;
+            TileObjectData.newAlternate.Origin = new Point16(1, 1);
+            TileObjectData.newAlternate.Direction = TileObjectDirection.None;
+            TileObjectData.newAlternate.CoordinateHeights = [16, 16];
+            TileObjectData.newAlternate.AnchorRight = new AnchorData(AnchorType.SolidTile | AnchorType.SolidSide | AnchorType.Tree, 2, 0);
+            TileObjectData.newAlternate.AnchorBottom = AnchorData.Empty;
+            TileObjectData.addAlternate(2);
+
+            TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
+            TileObjectData.newAlternate.Height = 2;
+            TileObjectData.newAlternate.Origin = new Point16(0, 1);
+            TileObjectData.newAlternate.Direction = TileObjectDirection.None;
+            TileObjectData.newAlternate.CoordinateHeights = [16, 16];
+            TileObjectData.newAlternate.AnchorLeft = new AnchorData(AnchorType.SolidTile | AnchorType.SolidSide | AnchorType.Tree, 2, 0);
+            TileObjectData.newAlternate.AnchorBottom = AnchorData.Empty;
+            TileObjectData.addAlternate(3);
+
             TileObjectData.addTile(Type);
 
             AddMapEntry(new Color(148, 107, 80));

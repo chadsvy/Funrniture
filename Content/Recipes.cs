@@ -63,6 +63,10 @@ namespace Funrniture.Content
             _ = Recipe.Create(ItemID.YellowCockatiel, 1)
                 .AddIngredient(ModContent.ItemType<YellowCockatielPerchItem>())
                 .Register();
+
+            _ = Recipe.Create(ItemID.RavenStaff, 1)
+                .AddIngredient(ModContent.ItemType<RavenPerchItem>())
+                .Register();
         }
     }
 }
