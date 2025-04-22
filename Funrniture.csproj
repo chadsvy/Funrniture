@@ -8,6 +8,7 @@
 		
 	</PropertyGroup>
 	<ItemGroup>
+	  <None Remove="Content\Items\Placeable\Furniture\AnimalHomes\PigmanHouseItem.png" />
 	  <None Remove="Content\Items\Placeable\Furniture\SetAdditions\Poufs\PoufItem.png" />
 	  <None Remove="Content\Items\Placeable\Furniture\SetAdditions\Stool.png" />
 	  <None Remove="Content\Tiles\Furniture\AnimalHomes\BlueJayPerch.png" />

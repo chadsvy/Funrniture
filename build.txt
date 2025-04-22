@@ -1,6 +1,6 @@
 displayName = Random Furniture Mod
-author = Zorro
-version = 0.7
+author = my cat Zorro
+version = 0.8
 hideCode = false
 hideResources = false
 includeSource = true

@@ -274,6 +274,11 @@ Items: {
 		Tooltip: ""
 	}
 
+	PigmanHouseItem: {
+		DisplayName: Pigman House
+		Tooltip: Where the pigs kick back and relax
+	}
+
 	RavenPerchItem: {
 		DisplayName: Raven Perch
 		Tooltip: ""
@@ -291,6 +296,11 @@ Items: {
 
 	YellowCockatielPerchItem: {
 		DisplayName: Yellow Cockatiel Perch
+		Tooltip: ""
+	}
+
+	DovePerchItem: {
+		DisplayName: Dove Perch
 		Tooltip: ""
 	}
 }
