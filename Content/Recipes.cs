@@ -1,5 +1,7 @@
 ﻿using Funrniture.Content.Items.Placeable.Furniture.AnimalHomes;
+using Funrniture.Content.Items.Placeable.Furniture.AnimalHomes.Butterflies;
 using Funrniture.Content.Items.Placeable.Furniture.AnimalSkins;
+using Funrniture.Content.Items.Placeable.Furniture.Mounts;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -13,6 +15,68 @@ namespace Funrniture.Content
             // De-crafting Animal skins
             _ = Recipe.Create(ItemID.LeopardSkin, 1)
                 .AddIngredient(ModContent.ItemType<SmallLeopardSkinItem>(), 2)
+                .DisableDecraft()
+                .Register();
+
+            // De-crafting Mounts
+            _ = Recipe.Create(ItemID.GolfCart, 1)
+                .AddIngredient(ModContent.ItemType<GolfCartItem>())
+                .DisableDecraft()
+                .Register();
+
+            // De-crafting Sitting butterflies
+            _ = Recipe.Create(ItemID.JuliaButterfly, 1)
+                .AddIngredient(ModContent.ItemType<SittingJuliaButterflyItem>())
+                .DisableDecraft()
+                .Register();
+            
+            _ = Recipe.Create(ItemID.GoldButterfly, 1)
+                .AddIngredient(ModContent.ItemType<SittingGoldButterflyItem>())
+                .DisableDecraft()
+                .Register();
+            
+            _ = Recipe.Create(ItemID.HellButterfly, 1)
+                .AddIngredient(ModContent.ItemType<SittingHellButterflyItem>())
+                .DisableDecraft()
+                .Register();
+            
+            _ = Recipe.Create(ItemID.MonarchButterfly, 1)
+                .AddIngredient(ModContent.ItemType<SittingMonarchButterflyItem>())
+                .DisableDecraft()
+                .Register();
+            
+            _ = Recipe.Create(ItemID.EmpressButterfly, 1)
+                .AddIngredient(ModContent.ItemType<SittingPrismaticLacewingItem>())
+                .DisableDecraft()
+                .Register();
+            
+            _ = Recipe.Create(ItemID.PurpleEmperorButterfly, 1)
+                .AddIngredient(ModContent.ItemType<SittingPurpleEmperorButterflyItem>())
+                .DisableDecraft()
+                .Register();
+            
+            _ = Recipe.Create(ItemID.RedAdmiralButterfly, 1)
+                .AddIngredient(ModContent.ItemType<SittingRedAdmiralButterflyItem>())
+                .DisableDecraft()
+                .Register();
+            
+            _ = Recipe.Create(ItemID.SulphurButterfly, 1)
+                .AddIngredient(ModContent.ItemType<SittingSulphurButterflyItem>())
+                .DisableDecraft()
+                .Register();
+            
+            _ = Recipe.Create(ItemID.TreeNymphButterfly, 1)
+                .AddIngredient(ModContent.ItemType<SittingTreeNymphButterflyItem>())
+                .DisableDecraft()
+                .Register();
+            
+            _ = Recipe.Create(ItemID.UlyssesButterfly, 1)
+                .AddIngredient(ModContent.ItemType<SittingUlyssesButterflyItem>())
+                .DisableDecraft()
+                .Register();
+            
+            _ = Recipe.Create(ItemID.ZebraSwallowtailButterfly, 1)
+                .AddIngredient(ModContent.ItemType<SittingZebraSwallowtailButterflyItem>())
                 .DisableDecraft()
                 .Register();
 

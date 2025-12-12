@@ -276,7 +276,7 @@ Items: {
 
 	PigmanHouseItem: {
 		DisplayName: Pigman House
-		Tooltip: Where the pigs kick back and relax
+		Tooltip: Where the pigs kick back and relax!
 	}
 
 	RavenPerchItem: {
@@ -302,5 +302,75 @@ Items: {
 	DovePerchItem: {
 		DisplayName: Dove Perch
 		Tooltip: ""
+	}
+
+	SittingJuliaButterflyItem: {
+		DisplayName: Displayable Julia Butterfly
+		Tooltip: It's alive and trained to sit on the back wall.
+	}
+
+	GolfCartItem: {
+		DisplayName: Parked Golf Cart
+		Tooltip: ""
+	}
+
+	SittingMonarchButterflyItem: {
+		DisplayName: Displayable Monarch Butterfly
+		Tooltip: It's alive and trained to sit on the back wall.
+	}
+
+	SittingGoldButterflyItem: {
+		DisplayName: Displayable Gold Butterfly
+		Tooltip: It's alive and trained to sit on the back wall.
+	}
+
+	SittingHellButterflyItem: {
+		DisplayName: Displayable Hell Butterfly
+		Tooltip: It's alive and trained to sit on the back wall.
+	}
+
+	SittingPrismaticLacewingItem: {
+		DisplayName: Displayable Prismatic Lacewing
+		Tooltip: It's alive and trained to sit on the back wall.
+	}
+
+	SittingPurpleEmperorButterflyItem: {
+		DisplayName: Displayable Purple Emperor Butterfly
+		Tooltip: It's alive and trained to sit on the back wall.
+	}
+
+	SittingRedAdmiralButterflyItem: {
+		DisplayName: Displayable Red Admiral Butterfly
+		Tooltip: It's alive and trained to sit on the back wall.
+	}
+
+	SittingSulphurButterflyItem: {
+		DisplayName: Displayable Sulphur Butterfly
+		Tooltip: It's alive and trained to sit on the back wall.
+	}
+
+	SittingTreeNymphButterflyItem: {
+		DisplayName: Displayable Tree Nymph Butterfly
+		Tooltip: It's alive and trained to sit on the back wall.
+	}
+
+	SittingUlyssesButterflyItem: {
+		DisplayName: Displayable Ulysses Butterfly
+		Tooltip: It's alive and trained to sit on the back wall.
+	}
+
+	SittingZebraSwallowtailButterflyItem: {
+		DisplayName: Displayable Zebra Swallowtail Butterfly
+		Tooltip: It's alive and trained to sit on the back wall.
+	}
+
+	ChoppingBlockItem: {
+		DisplayName: Chopping Block
+		Tooltip: ""
+	}
+
+	SittingLogItem: {
+		DisplayName: Log Seat
+		Tooltip: A log for sitting.
 	}
 }
