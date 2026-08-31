@@ -13,6 +13,8 @@ namespace Funrniture.Content.Tiles.Furniture.AnimalHomes
 {
     public class PigmanHouse : ModTile
     {
+        public override string Texture => "Funrniture/Content/Tiles/Furniture/AnimalHomes/Pets/PigmanHouse";
+
         private Asset<Texture2D> pigTexture;
 
         public override void SetStaticDefaults()

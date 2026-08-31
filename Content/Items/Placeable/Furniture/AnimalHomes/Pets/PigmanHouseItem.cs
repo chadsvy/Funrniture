@@ -6,7 +6,9 @@ namespace Funrniture.Content.Items.Placeable.Furniture.AnimalHomes
 {
 	public class PigmanHouseItem : ModItem
 	{
-		public override void SetDefaults() {
+        public override string Texture => "Funrniture/Content/Items/Placeable/Furniture/AnimalHomes/Pets/PigmanHouseItem";
+
+        public override void SetDefaults() {
 			Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Furniture.AnimalHomes.PigmanHouse>());
 			Item.width = 24;
 			Item.height = 16;

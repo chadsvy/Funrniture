@@ -1,5 +1,6 @@
 ﻿using Funrniture.Content.Items.Placeable.Furniture.AnimalHomes;
 using Funrniture.Content.Items.Placeable.Furniture.AnimalHomes.Butterflies;
+using Funrniture.Content.Items.Placeable.Furniture.AnimalHomes.Pets;
 using Funrniture.Content.Items.Placeable.Furniture.AnimalSkins;
 using Funrniture.Content.Items.Placeable.Furniture.Mounts;
 using Terraria;
@@ -151,8 +152,14 @@ namespace Funrniture.Content
                 .DisableDecraft()
                 .Register();
 
+            // De-crafting Pet homes
             _ = Recipe.Create(ItemID.PigPetItem, 1)
                 .AddIngredient(ModContent.ItemType<PigmanHouseItem>())
+                .DisableDecraft()
+                .Register();
+
+            _ = Recipe.Create(ItemID.GlommerPetItem, 1)
+                .AddIngredient(ModContent.ItemType<GlommersStatueItem>())
                 .DisableDecraft()
                 .Register();
         }

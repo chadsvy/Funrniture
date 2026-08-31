@@ -373,4 +373,9 @@ Items: {
 		DisplayName: Log Seat
 		Tooltip: A log for sitting.
 	}
+
+	GlommersStatueItem: {
+		DisplayName: Glommer's Statue
+		Tooltip: A strange statue, reflecting the light of the moon during the day.
+	}
 }
