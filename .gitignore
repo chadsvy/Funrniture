@@ -1,4 +1,6 @@
 Concepts/Unused/*
+Screenshots/*.pdn
+Screenshots/*_old*.png
 
 
 ## Ignore Visual Studio temporary files, build results, and
