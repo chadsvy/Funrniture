@@ -36,9 +36,12 @@ namespace Funrniture.Content.Tiles.Furniture.AnimalHomes.Pets
             DustType = DustID.Granite;
 
             // Load glommer projectile texture
-            const int glommerProjectileId = 957;
-            Main.instance.LoadProjectile(glommerProjectileId);
-            glommerTexture = TextureAssets.Projectile[glommerProjectileId];
+            if (Main.netMode != NetmodeID.Server)
+            {
+                const int glommerProjectileId = 957;
+                Main.instance.LoadProjectile(glommerProjectileId);
+                glommerTexture = TextureAssets.Projectile[glommerProjectileId];
+            }
         }
 
         public override void PostDraw(int i, int j, SpriteBatch spriteBatch)

@@ -38,9 +38,12 @@ namespace Funrniture.Content.Tiles.Furniture.AnimalHomes
             DustType = DustID.WoodFurniture;
 
             // Load pigman projectile texture
-            const int pigProjectileId = 959;
-            Main.instance.LoadProjectile(pigProjectileId);
-            pigTexture = TextureAssets.Projectile[pigProjectileId];
+            if (Main.netMode != NetmodeID.Server)
+            {
+                const int pigProjectileId = 959;
+                Main.instance.LoadProjectile(pigProjectileId);
+                pigTexture = TextureAssets.Projectile[pigProjectileId];
+            }
         }
 
         public override void PostDraw(int i, int j, SpriteBatch spriteBatch)
