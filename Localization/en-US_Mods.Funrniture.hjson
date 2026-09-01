@@ -221,12 +221,7 @@ Items: {
 
 	SmallLeopardSkinItem: {
 		DisplayName: Mysterious Animal Skin
-		Tooltip:
-			'''
-			The hide of a dangerous, spotted, man-eating jungle pig
-			Obtained by you at great peril
-			Not just a leopard skin that you cut in half
-			'''
+		Tooltip: Try to convince your friends that you slew a rare mob to get this!
 	}
 
 	BirdPerchItem: {
@@ -305,7 +300,7 @@ Items: {
 	}
 
 	SittingJuliaButterflyItem: {
-		DisplayName: Displayable Julia Butterfly
+		DisplayName: Decorative Julia Butterfly
 		Tooltip: It's alive and trained to sit on the back wall.
 	}
 
@@ -315,52 +310,52 @@ Items: {
 	}
 
 	SittingMonarchButterflyItem: {
-		DisplayName: Displayable Monarch Butterfly
+		DisplayName: Decorative Monarch Butterfly
 		Tooltip: It's alive and trained to sit on the back wall.
 	}
 
 	SittingGoldButterflyItem: {
-		DisplayName: Displayable Gold Butterfly
+		DisplayName: Decorative Gold Butterfly
 		Tooltip: It's alive and trained to sit on the back wall.
 	}
 
 	SittingHellButterflyItem: {
-		DisplayName: Displayable Hell Butterfly
+		DisplayName: Decorative Hell Butterfly
 		Tooltip: It's alive and trained to sit on the back wall.
 	}
 
 	SittingPrismaticLacewingItem: {
-		DisplayName: Displayable Prismatic Lacewing
+		DisplayName: Decorative Prismatic Lacewing
 		Tooltip: It's alive and trained to sit on the back wall.
 	}
 
 	SittingPurpleEmperorButterflyItem: {
-		DisplayName: Displayable Purple Emperor Butterfly
+		DisplayName: Decorative Purple Emperor Butterfly
 		Tooltip: It's alive and trained to sit on the back wall.
 	}
 
 	SittingRedAdmiralButterflyItem: {
-		DisplayName: Displayable Red Admiral Butterfly
+		DisplayName: Decorative Red Admiral Butterfly
 		Tooltip: It's alive and trained to sit on the back wall.
 	}
 
 	SittingSulphurButterflyItem: {
-		DisplayName: Displayable Sulphur Butterfly
+		DisplayName: Decorative Sulphur Butterfly
 		Tooltip: It's alive and trained to sit on the back wall.
 	}
 
 	SittingTreeNymphButterflyItem: {
-		DisplayName: Displayable Tree Nymph Butterfly
+		DisplayName: Decorative Tree Nymph Butterfly
 		Tooltip: It's alive and trained to sit on the back wall.
 	}
 
 	SittingUlyssesButterflyItem: {
-		DisplayName: Displayable Ulysses Butterfly
+		DisplayName: Decorative Ulysses Butterfly
 		Tooltip: It's alive and trained to sit on the back wall.
 	}
 
 	SittingZebraSwallowtailButterflyItem: {
-		DisplayName: Displayable Zebra Swallowtail Butterfly
+		DisplayName: Decorative Zebra Swallowtail Butterfly
 		Tooltip: It's alive and trained to sit on the back wall.
 	}
 
@@ -377,5 +372,37 @@ Items: {
 	GlommersStatueItem: {
 		DisplayName: Glommer's Statue
 		Tooltip: A strange statue, reflecting the light of the moon during the day.
+	}
+
+	GramophoneItem: {
+		DisplayName: Gramophone
+		Tooltip:
+			'''
+			A machine used by the ancients.
+			Who knows what they did with it?
+			'''
+	}
+
+	MagicConchItem: {
+		DisplayName: Decorative Magic Conch
+		Tooltip: ""
+	}
+
+	BucketItem: {
+		DisplayName: Decorative Empty Bucket
+		Tooltip:
+			'''
+			Not to be confused with a normal empty bucket.
+			You wouldn't dream of storing water in this one!
+			'''
+	}
+
+	SandcastleBucketItem: {
+		DisplayName: Decorative Sandcastle Bucket
+		Tooltip:
+			'''
+			For posers who display their sandcastle buckets instead of using them.
+			Press Up/Down to cycle through placement styles
+			'''
 	}
 }

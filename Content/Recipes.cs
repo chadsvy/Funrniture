@@ -1,4 +1,5 @@
-﻿using Funrniture.Content.Items.Placeable.Furniture.AnimalHomes;
+﻿using Funrniture.Content.Items.Placeable.Furniture;
+using Funrniture.Content.Items.Placeable.Furniture.AnimalHomes;
 using Funrniture.Content.Items.Placeable.Furniture.AnimalHomes.Butterflies;
 using Funrniture.Content.Items.Placeable.Furniture.AnimalHomes.Pets;
 using Funrniture.Content.Items.Placeable.Furniture.AnimalSkins;
@@ -11,6 +12,18 @@ namespace Funrniture.Content
 {
     public class Recipes : ModSystem
     {
+        public const string RecipeGroupCopperBar = "Funrniture:CopperBar";
+
+        public override void AddRecipeGroups()
+        {
+            var recipeGroup = new RecipeGroup(
+                () => "Copper or Tin Bar",
+                [ItemID.CopperBar, ItemID.TinBar]
+            );
+
+            _ = RecipeGroup.RegisterGroup(RecipeGroupCopperBar, recipeGroup);
+        }
+
         public override void AddRecipes()
         {
             // De-crafting Animal skins
@@ -30,52 +43,52 @@ namespace Funrniture.Content
                 .AddIngredient(ModContent.ItemType<SittingJuliaButterflyItem>())
                 .DisableDecraft()
                 .Register();
-            
+
             _ = Recipe.Create(ItemID.GoldButterfly, 1)
                 .AddIngredient(ModContent.ItemType<SittingGoldButterflyItem>())
                 .DisableDecraft()
                 .Register();
-            
+
             _ = Recipe.Create(ItemID.HellButterfly, 1)
                 .AddIngredient(ModContent.ItemType<SittingHellButterflyItem>())
                 .DisableDecraft()
                 .Register();
-            
+
             _ = Recipe.Create(ItemID.MonarchButterfly, 1)
                 .AddIngredient(ModContent.ItemType<SittingMonarchButterflyItem>())
                 .DisableDecraft()
                 .Register();
-            
+
             _ = Recipe.Create(ItemID.EmpressButterfly, 1)
                 .AddIngredient(ModContent.ItemType<SittingPrismaticLacewingItem>())
                 .DisableDecraft()
                 .Register();
-            
+
             _ = Recipe.Create(ItemID.PurpleEmperorButterfly, 1)
                 .AddIngredient(ModContent.ItemType<SittingPurpleEmperorButterflyItem>())
                 .DisableDecraft()
                 .Register();
-            
+
             _ = Recipe.Create(ItemID.RedAdmiralButterfly, 1)
                 .AddIngredient(ModContent.ItemType<SittingRedAdmiralButterflyItem>())
                 .DisableDecraft()
                 .Register();
-            
+
             _ = Recipe.Create(ItemID.SulphurButterfly, 1)
                 .AddIngredient(ModContent.ItemType<SittingSulphurButterflyItem>())
                 .DisableDecraft()
                 .Register();
-            
+
             _ = Recipe.Create(ItemID.TreeNymphButterfly, 1)
                 .AddIngredient(ModContent.ItemType<SittingTreeNymphButterflyItem>())
                 .DisableDecraft()
                 .Register();
-            
+
             _ = Recipe.Create(ItemID.UlyssesButterfly, 1)
                 .AddIngredient(ModContent.ItemType<SittingUlyssesButterflyItem>())
                 .DisableDecraft()
                 .Register();
-            
+
             _ = Recipe.Create(ItemID.ZebraSwallowtailButterfly, 1)
                 .AddIngredient(ModContent.ItemType<SittingZebraSwallowtailButterflyItem>())
                 .DisableDecraft()
@@ -160,6 +173,17 @@ namespace Funrniture.Content
 
             _ = Recipe.Create(ItemID.GlommerPetItem, 1)
                 .AddIngredient(ModContent.ItemType<GlommersStatueItem>())
+                .DisableDecraft()
+                .Register();
+
+            // De-crafting Tools
+            _ = Recipe.Create(ItemID.MagicConch, 1)
+                .AddIngredient(ModContent.ItemType<MagicConchItem>())
+                .DisableDecraft()
+                .Register();
+
+            _ = Recipe.Create(ItemID.SandcastleBucket, 1)
+                .AddIngredient(ModContent.ItemType<SandcastleBucketItem>())
                 .DisableDecraft()
                 .Register();
         }
