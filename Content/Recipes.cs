@@ -186,6 +186,16 @@ namespace Funrniture.Content
                 .AddIngredient(ModContent.ItemType<SandcastleBucketItem>())
                 .DisableDecraft()
                 .Register();
+
+            _ = Recipe.Create(ItemID.LunarTabletFragment, 8)
+                .AddIngredient(ModContent.ItemType<SolarTabletItem>())
+                .DisableDecraft()
+                .Register();
+
+            _ = Recipe.Create(ItemID.LunarTabletFragment, 4)
+                .AddIngredient(ModContent.ItemType<SolarTabletSmallItem>())
+                .DisableDecraft()
+                .Register();
         }
     }
 }

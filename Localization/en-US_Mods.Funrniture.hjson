@@ -410,4 +410,18 @@ Items: {
 		DisplayName: Decorative Chum Bucket
 		Tooltip: ""
 	}
+
+	SolarTabletItem: {
+		DisplayName: Decorative Solar Tablet
+		Tooltip:
+			'''
+			It's probably not dangerous to just leave one of these standing around, right? Right?
+			Press Up/Down to cycle through placement styles
+			'''
+	}
+
+	SolarTabletSmallItem: {
+		DisplayName: Small Decorative Solar Tablet
+		Tooltip: ""
+	}
 }

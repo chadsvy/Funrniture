@@ -29,13 +29,16 @@ namespace Funrniture.Content.Tiles.Furniture
             TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
             TileObjectData.newAlternate.Direction = TileObjectDirection.PlaceRight;
             TileObjectData.addAlternate(1);
+            RegisterItemDrop(ModContent.ItemType<Items.Placeable.Furniture.SolarTabletItem>(), 1);
 
             TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
             TileObjectData.addAlternate(2);
+            RegisterItemDrop(ModContent.ItemType<Items.Placeable.Furniture.SolarTabletItem>(), 2);
 
             TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
             TileObjectData.newAlternate.Direction = TileObjectDirection.PlaceRight;
             TileObjectData.addAlternate(3);
+            RegisterItemDrop(ModContent.ItemType<Items.Placeable.Furniture.SolarTabletItem>(), 3);
 
             TileObjectData.addTile(Type);
 
@@ -46,7 +49,7 @@ namespace Funrniture.Content.Tiles.Furniture
 
         public override void SetDrawPositions(int i, int j, ref int width, ref int offsetY, ref int height, ref short tileFrameX, ref short tileFrameY)
         {
-            height = tileFrameY % 2 == 0 ? 16 : 22;
+            height = tileFrameY % 42 == 0 ? 16 : 22;
             offsetY = -4;
         }
     }

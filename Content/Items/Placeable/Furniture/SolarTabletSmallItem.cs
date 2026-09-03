@@ -1,3 +1,4 @@
+using System;
 using Terraria;
 using Terraria.Audio;
 using Terraria.GameInput;
@@ -12,7 +13,6 @@ namespace Funrniture.Content.Items.Placeable.Furniture
 
         public override void SetDefaults()
         {
-                                        // TODO ADD THIS TILE.
             Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Furniture.SolarTabletSmall>());
             Item.width = 36;
             Item.height = 32;
@@ -25,26 +25,26 @@ namespace Funrniture.Content.Items.Placeable.Furniture
                 .AddIngredient(ItemID.LunarTabletFragment, 4)
                 .AddTile(TileID.MythrilAnvil)
                 .Register();
-
-            CreateRecipe(2)
-                .AddIngredient(ModContent.ItemType<SolarTabletItem>())
-                .AddTile(TileID.MythrilAnvil)
-                .Register();
         }
 
+        // Duplicate of SolarTabletItem.HoldItem
         public override void HoldItem(Player player)
         {
-            // TODO THIS IS ENTIRELY UNTESTED
-            
             if (player.whoAmI != Main.myPlayer)
                 return;
 
+            if (player.direction < 0 && Item.placeStyle % 2 == 1)
+            {
+                Item.placeStyle = Math.Max(Item.placeStyle - 1, 0);
+            }
+            else if (player.direction > 0 && Item.placeStyle % 2 == 0)
+            {
+                Item.placeStyle = Math.Min(Item.placeStyle + 1, 3);
+            }
+
             if (PlayerInput.Triggers.JustPressed.Up)
             {
-                Item.placeStyle += 2;
-
-                if (Item.placeStyle >= StyleAmount)
-                    Item.placeStyle %= StyleAmount;
+                Item.placeStyle = (Item.placeStyle + 2) % StyleAmount;
 
                 SoundEngine.PlaySound(SoundID.MenuTick);
             }
