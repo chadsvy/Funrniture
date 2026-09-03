@@ -405,4 +405,9 @@ Items: {
 			Press Up/Down to cycle through placement styles
 			'''
 	}
+
+	ChumBucketItem: {
+		DisplayName: Decorative Chum Bucket
+		Tooltip: ""
+	}
 }
