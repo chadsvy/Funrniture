@@ -10,6 +10,8 @@ namespace Funrniture.Content.Items.Placeable.Furniture
     {
         private const int StyleAmount = 3;
 
+        public override string Texture => "Funrniture/Content/Items/Placeable/Furniture/Beach/SandcastleBucketItem";
+
         public override void SetDefaults()
         {
             Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Furniture.SandcastleBucket>());

@@ -6,6 +6,8 @@ namespace Funrniture.Content.Items.Placeable.Furniture
 {
 	public class MagicConchItem : ModItem
 	{
+        public override string Texture => "Funrniture/Content/Items/Placeable/Furniture/Beach/MagicConchItem";
+
         public override void SetDefaults() {
 			Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Furniture.MagicConch>());
 			Item.width = 32;
