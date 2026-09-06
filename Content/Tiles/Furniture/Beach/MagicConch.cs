@@ -9,6 +9,8 @@ namespace Funrniture.Content.Tiles.Furniture
 {
     public class MagicConch : ModTile
     {
+        public override string Texture => "Funrniture/Content/Tiles/Furniture/Beach/MagicConch";
+
         public override void SetStaticDefaults()
         {
             Main.tileFrameImportant[Type] = true;
@@ -28,6 +30,7 @@ namespace Funrniture.Content.Tiles.Furniture
             TileObjectData.newAlternate.CopyFrom(TileObjectData.newTile);
             TileObjectData.newAlternate.Direction = TileObjectDirection.PlaceRight;
             TileObjectData.addAlternate(1);
+            RegisterItemDrop(ModContent.ItemType<Items.Placeable.Furniture.MagicConchItem>(), 1);
 
             TileObjectData.addTile(Type);
 

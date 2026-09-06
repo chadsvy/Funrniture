@@ -10,6 +10,8 @@ namespace Funrniture.Content.Tiles.Furniture
 {
     public class SandcastleBucket : ModTile
     {
+        public override string Texture => "Funrniture/Content/Tiles/Furniture/Beach/SandcastleBucket";
+
         public override void SetStaticDefaults()
         {
             Main.tileFrameImportant[Type] = true;
