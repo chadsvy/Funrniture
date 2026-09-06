@@ -3,6 +3,7 @@ using Funrniture.Content.Items.Placeable.Furniture.AnimalHomes;
 using Funrniture.Content.Items.Placeable.Furniture.AnimalHomes.Butterflies;
 using Funrniture.Content.Items.Placeable.Furniture.AnimalHomes.Pets;
 using Funrniture.Content.Items.Placeable.Furniture.AnimalSkins;
+using Funrniture.Content.Items.Placeable.Furniture.Beach;
 using Funrniture.Content.Items.Placeable.Furniture.Mounts;
 using Terraria;
 using Terraria.ID;
@@ -176,7 +177,7 @@ namespace Funrniture.Content
                 .DisableDecraft()
                 .Register();
 
-            // De-crafting Tools
+            // De-crafting Beach stuff
             _ = Recipe.Create(ItemID.MagicConch, 1)
                 .AddIngredient(ModContent.ItemType<MagicConchItem>())
                 .DisableDecraft()
@@ -187,6 +188,12 @@ namespace Funrniture.Content
                 .DisableDecraft()
                 .Register();
 
+            _ = Recipe.Create(ItemID.BeachBall)
+                .AddIngredient(ModContent.ItemType<BeachBallItem>())
+                .DisableDecraft()
+                .Register();
+
+            // De-crafting Tools
             _ = Recipe.Create(ItemID.LunarTabletFragment, 8)
                 .AddIngredient(ModContent.ItemType<SolarTabletItem>())
                 .DisableDecraft()
