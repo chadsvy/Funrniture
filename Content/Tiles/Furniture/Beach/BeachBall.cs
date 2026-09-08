@@ -5,7 +5,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace Funrniture.Content.Tiles.Furniture
+namespace Funrniture.Content.Tiles.Furniture.Beach
 {
     public class BeachBall : ModTile
     {

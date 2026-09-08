@@ -424,4 +424,18 @@ Items: {
 		DisplayName: Small Decorative Solar Tablet
 		Tooltip: ""
 	}
+
+	BeachBallItem: {
+		DisplayName: Decorative Beach Ball
+		Tooltip: ""
+	}
+
+	UnicornStickItem: {
+		DisplayName: Decorative Unicorn on a Stick
+		Tooltip:
+			'''
+			In Iceland, a horse head on a stick is considered a grievous insult.
+			This should be fine, though. I think.
+			'''
+	}
 }
