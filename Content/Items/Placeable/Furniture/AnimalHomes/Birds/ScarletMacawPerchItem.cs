@@ -6,7 +6,9 @@ namespace Funrniture.Content.Items.Placeable.Furniture.AnimalHomes
 {
 	public class ScarletMacawPerchItem : ModItem
 	{
-		public override void SetDefaults() {
+        public override string Texture => "Funrniture/Content/Items/Placeable/Furniture/AnimalHomes/Birds/ScarletMacawPerchItem";
+
+        public override void SetDefaults() {
 			Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Furniture.AnimalHomes.ScarletMacawPerch>());
 			Item.width = 24;
 			Item.height = 38;
